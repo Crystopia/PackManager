@@ -3,4 +3,10 @@
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class ConfigData(var devmode: Boolean = true)
+data class ConfigData(
+    var resourcepackUrl: String?,
+    val resourcepackHash: String?,
+    val APIPort: Int? = 9900,
+    val zipFileDir: String?,
+    val message: String?
+)

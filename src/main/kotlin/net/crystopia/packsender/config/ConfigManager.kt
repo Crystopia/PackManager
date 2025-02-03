@@ -4,10 +4,17 @@ import kotlinx.serialization.encodeToString
 import java.io.File
 
 object ConfigManager {
-    private val settingsFile = File("plugins/PackSender/config.json")
+    private val settingsFile = File("plugins/PackManager/config.json")
 
 
-    val settings = settingsFile.loadConfig(ConfigData())
+    val settings = settingsFile.loadConfig(
+        ConfigData(
+            APIPort = 9900,
+            resourcepackUrl = "",
+            resourcepackHash = "",
+            zipFileDir = "C:\\Users\\jespe\\Downloads\\pack.zip", message = ""
+        )
+    )
 
 
     fun save() {

@@ -5,8 +5,8 @@ plugins {
     id("io.papermc.paperweight.userdev") version "1.7.3"
     id("xyz.jpenilla.run-paper") version "2.3.1"
     id("net.minecrell.plugin-yml.bukkit") version "0.6.0"
-    id("io.github.goooler.shadow") version "8.1.8"
     kotlin("plugin.serialization") version "2.+"
+    id("com.gradleup.shadow") version "9.0.0-beta7"
 }
 
 group = properties["group"] as String
@@ -28,6 +28,13 @@ dependencies {
     library(kotlin("stdlib"))
     library("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.+")
     library("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.+")
+
+
+    // Ktor
+    implementation("io.ktor:ktor-server-core:2.3.0")
+    implementation("io.ktor:ktor-server-netty:2.3.0")
+    implementation("io.ktor:ktor-server-content-negotiation:2.3.0")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.0")
 }
 
 java {
