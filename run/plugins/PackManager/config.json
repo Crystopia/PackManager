@@ -1,6 +1,8 @@
 {
-    "resourcepackUrl": null,
-    "resourcepackHash": null,
+    "resourcepackUrl": "",
+    "resourcepackHash": "",
     "APIPort": 9900,
-    "zipFileDir": "C:\\Users\\jespe\\Downloads\\pack.zip"
+    "RPzipFilePath": "C:\\Users\\jespe\\Downloads\\pack.zip",
+    "pluginFolderToZip": "C:\\Users\\jespe\\Documents\\GitHub\\PackSender\\run\\plugins\\spark",
+    "message": ""
 }

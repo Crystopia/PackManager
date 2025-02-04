@@ -12,7 +12,9 @@ object ConfigManager {
             APIPort = 9900,
             resourcepackUrl = "",
             resourcepackHash = "",
-            zipFileDir = "C:\\Users\\jespe\\Downloads\\pack.zip", message = ""
+            RPzipFilePath = "C:\\Users\\jespe\\Downloads\\pack.zip",
+            message = "",
+            pluginFolderToZip = ""
         )
     )
 

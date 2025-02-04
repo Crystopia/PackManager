@@ -1,51 +1,51 @@
-[21:45:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Eclipse Adoptium Temurin-21.0.5+11) on Windows 11 10.0 (amd64)
-[21:45:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) for Minecraft 1.21.1
-[21:45:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:45:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[21:45:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[19:01:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Eclipse Adoptium Temurin-21.0.5+11) on Windows 11 10.0 (amd64)
+[19:01:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) for Minecraft 1.21.1
+[19:01:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:01:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[19:01:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - PackSender (1.0.0)
-[21:45:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:45:32] [ServerMain/INFO]: Loaded 1290 recipes
-[21:45:32] [ServerMain/INFO]: Loaded 1399 advancements
-[21:45:32] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[21:45:32] [Server thread/INFO]: Loading properties
-[21:45:32] [Server thread/INFO]: This server is running Paper version 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[21:45:33] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:45:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:45:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:45:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
-[21:45:34] [Server thread/INFO]: Default game type: SURVIVAL
-[21:45:34] [Server thread/INFO]: Generating keypair
-[21:45:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:45:34] [Server thread/INFO]: Using default channel type
-[21:45:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:45:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loading 3 libraries... please wait
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlin\kotlin-stdlib\2.1.20-Beta2\kotlin-stdlib-2.1.20-Beta2.jar
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\annotations\13.0\annotations-13.0.jar
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-serialization-json\1.6.3\kotlinx-serialization-json-1.6.3.jar
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-serialization-json-jvm\1.6.3\kotlinx-serialization-json-jvm-1.6.3.jar
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.22\kotlin-stdlib-common-1.9.22.jar
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-serialization-core-jvm\1.6.3\kotlinx-serialization-core-jvm-1.6.3.jar
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-coroutines-core\1.8.1\kotlinx-coroutines-core-1.8.1.jar
-[21:45:34] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.8.1\kotlinx-coroutines-core-jvm-1.8.1.jar
-[21:45:34] [Server thread/INFO]: [PackSender] Loading server plugin PackSender v1.0.0
-[21:45:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:45:34] [Server thread/INFO]: [PackSender] Enabling PackSender v1.0.0
-[21:45:34] [Server thread/INFO]: [PackSender] Enabling PackSender
-[21:45:35] [Server thread/INFO]: [ktor.application] Autoreload is disabled because the development mode is off.
-[21:45:35] [Server thread/INFO]: [ktor.application] Application started in 0.264 seconds.
-[21:45:35] [DefaultDispatcher-worker-1/INFO]: [ktor.application] Responding at http://127.0.0.1:9900
-[21:45:35] [Server thread/INFO]: Preparing level "world"
-[21:45:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:45:36] [Server thread/INFO]: Time elapsed: 845 ms
-[21:45:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:45:36] [Server thread/INFO]: Time elapsed: 99 ms
-[21:45:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:45:36] [Server thread/INFO]: Time elapsed: 29 ms
-[21:45:36] [Server thread/INFO]: [spark] Starting background profiler...
-[21:45:36] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[21:45:36] [Server thread/INFO]: Done preparing level "world" (1.490s)
-[21:45:36] [Server thread/INFO]: Running delayed init tasks
-[21:45:36] [Server thread/INFO]: Done (12.231s)! For help, type "help"
-[21:45:36] [Server thread/INFO]: Timings Reset
+[19:01:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:01:59] [ServerMain/INFO]: Loaded 1290 recipes
+[19:01:59] [ServerMain/INFO]: Loaded 1399 advancements
+[19:01:59] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[19:01:59] [Server thread/INFO]: Loading properties
+[19:01:59] [Server thread/INFO]: This server is running Paper version 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[19:02:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:02:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:02:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:02:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
+[19:02:01] [Server thread/INFO]: Default game type: SURVIVAL
+[19:02:01] [Server thread/INFO]: Generating keypair
+[19:02:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:02:02] [Server thread/INFO]: Using default channel type
+[19:02:02] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:02:02] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:02:02] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loading 3 libraries... please wait
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlin\kotlin-stdlib\2.1.20-Beta2\kotlin-stdlib-2.1.20-Beta2.jar
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\annotations\13.0\annotations-13.0.jar
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-serialization-json\1.6.3\kotlinx-serialization-json-1.6.3.jar
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-serialization-json-jvm\1.6.3\kotlinx-serialization-json-jvm-1.6.3.jar
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.22\kotlin-stdlib-common-1.9.22.jar
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-serialization-core-jvm\1.6.3\kotlinx-serialization-core-jvm-1.6.3.jar
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-coroutines-core\1.8.1\kotlinx-coroutines-core-1.8.1.jar
+[19:02:03] [Server thread/INFO]: [SpigotLibraryLoader] [PackSender] Loaded library C:\Users\jespe\Documents\GitHub\PackSender\run\libraries\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.8.1\kotlinx-coroutines-core-jvm-1.8.1.jar
+[19:02:04] [Server thread/INFO]: [PackSender] Loading server plugin PackSender v1.0.0
+[19:02:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:02:04] [Server thread/INFO]: [PackSender] Enabling PackSender v1.0.0
+[19:02:04] [Server thread/INFO]: [PackSender] Enabling PackSender
+[19:02:04] [Server thread/INFO]: [ktor.application] Autoreload is disabled because the development mode is off.
+[19:02:04] [Server thread/INFO]: [ktor.application] Application started in 0.155 seconds.
+[19:02:04] [DefaultDispatcher-worker-1/INFO]: [ktor.application] Responding at http://127.0.0.1:9900
+[19:02:04] [Server thread/INFO]: Preparing level "world"
+[19:02:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:02:06] [Server thread/INFO]: Time elapsed: 723 ms
+[19:02:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:02:06] [Server thread/INFO]: Time elapsed: 54 ms
+[19:02:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:02:06] [Server thread/INFO]: Time elapsed: 30 ms
+[19:02:06] [Server thread/INFO]: [spark] Starting background profiler...
+[19:02:06] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[19:02:06] [Server thread/INFO]: Done preparing level "world" (1.374s)
+[19:02:06] [Server thread/INFO]: Running delayed init tasks
+[19:02:06] [Server thread/INFO]: Done (14.613s)! For help, type "help"
+[19:02:06] [Server thread/INFO]: Timings Reset
