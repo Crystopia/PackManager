@@ -2,7 +2,7 @@
     "resourcepackUrl": "",
     "resourcepackHash": "",
     "APIPort": 9900,
-    "RPzipFilePath": "C:\\Users\\jespe\\Downloads\\pack.zip",
-    "pluginFolderToZip": "C:\\Users\\jespe\\Documents\\GitHub\\PackSender\\run\\plugins\\spark",
+    "RPzipFilePath": "C:\\Users\\jespe\\Downloads\\MySQL-And-Configurate-For-Velocity-3.0.0-RELEASE.jar",
+    "pluginFolderToZip": "C:\\Users\\jespe\\Documents\\GitHub\\PackSender\\run\\versions",
     "message": ""
 }

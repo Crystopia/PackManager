@@ -9,6 +9,7 @@ import io.ktor.server.netty.Netty
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import java.io.File
+import java.io.IOException
 import kotlin.io.path.Path
 import kotlin.io.path.deleteExisting
 import kotlin.io.path.exists
@@ -32,9 +33,25 @@ class PackSender : JavaPlugin() {
         embeddedServer(Netty, port = ConfigManager.settings.APIPort!!.toInt()) {
             routing {
                 get("/") {
-                    val file = File(ConfigManager.settings.RPzipFilePath!!)
+                    val zipFilePath = ConfigManager.settings.RPzipFilePath
+                    val file = File(zipFilePath)
+
                     if (file.exists()) {
-                        call.respondFile(file)
+                        try {
+
+
+                            call.response.header(HttpHeaders.ContentDisposition, "attachment; filename=\"pack.zip\"")
+                            call.response.header(HttpHeaders.ContentType, ContentType.Application.Zip.toString())
+
+                            call.respondOutputStream(ContentType.Application.Zip) {
+                                file.inputStream().use { it.copyTo(this) }
+                            }
+                        } catch (e: IOException) {
+                            call.respond(
+                                HttpStatusCode.InternalServerError, "Unexpected error while reading zip file: ${e}"
+                            )
+                        }
+
                     } else {
                         call.respond(HttpStatusCode.NotFound, "404 - no File!")
                     }
@@ -42,13 +59,13 @@ class PackSender : JavaPlugin() {
                 get("/pluginzip") {
                     try {
                         val folderToZip = ConfigManager.settings.pluginFolderToZip.toString()
-                        val zipFilePath = "$folderToZip.zip"
-                        zipFolder(folderToZip, zipFilePath)
-                        call.respondFile(File(zipFilePath))
-
+                        val zipBytes = zipFolder(folderToZip)
+                        call.response.header(HttpHeaders.ContentDisposition, "attachment; filename=\"pluginzip.zip\"")
+                        call.respondBytes(zipBytes, ContentType.Application.Zip)
                     } catch (e: Exception) {
-                        call.respond(HttpStatusCode.InternalServerError, "Unexpected error: ${e.message}")
+                        call.respond(HttpStatusCode.InternalServerError, "Unexpected error: ${e}")
                     }
+
                 }
             }
         }.start(wait = false)

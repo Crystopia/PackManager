@@ -5,9 +5,15 @@ import java.nio.file.Paths
 import java.util.zip.ZipEntry
 import java.util.zip.ZipOutputStream
 
-fun zipFolder(sourceFolderPath: String, zipPath: String) {
+import java.io.ByteArrayOutputStream
+
+
+fun zipFolder(sourceFolderPath: String): ByteArray {
     val sourcePath = Paths.get(sourceFolderPath)
-    ZipOutputStream(Files.newOutputStream(Paths.get(zipPath))).use { zipOut ->
+    val byteArrayOutputStream = ByteArrayOutputStream()
+
+
+    ZipOutputStream(byteArrayOutputStream).use { zipOut ->
         Files.walk(sourcePath).filter { !Files.isDirectory(it) }.forEach { file ->
             val zipEntry = ZipEntry(sourcePath.relativize(file).toString())
             zipOut.putNextEntry(zipEntry)
@@ -15,4 +21,6 @@ fun zipFolder(sourceFolderPath: String, zipPath: String) {
             zipOut.closeEntry()
         }
     }
+
+    return byteArrayOutputStream.toByteArray()
 }
