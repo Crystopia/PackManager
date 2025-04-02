@@ -4,5 +4,6 @@
     "APIPort": 9900,
     "RPzipFilePath": "C:\\Users\\jespe\\Downloads\\MySQL-And-Configurate-For-Velocity-3.0.0-RELEASE.jar",
     "pluginFolderToZip": "C:\\Users\\jespe\\Documents\\GitHub\\PackSender\\run\\versions",
-    "message": ""
+    "message": "",
+    "packMode": "Development"
 }

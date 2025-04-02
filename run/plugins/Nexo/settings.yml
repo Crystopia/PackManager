@@ -6,7 +6,7 @@ WorldEdit:
 Chat:
   chat_handler: MODERN
 ConfigTools:
-  generate_default_configs: true
+  generate_default_configs: false
   disable_automatic_model_data: false
   disable_automatic_glyph_code: false
   initial_custom_model_data: 1000
@@ -74,8 +74,8 @@ Pack:
       executable_path: plugins/Nexo/pack/packsquash/packsquash
       settings_path: plugins/Nexo/pack/packsquash/packsquash.toml
   import:
-    default_assets: true
-    external_packs: true
+    default_assets: false
+    external_packs: false
     from_location: []
     from_url: []
     external_pack_order: []

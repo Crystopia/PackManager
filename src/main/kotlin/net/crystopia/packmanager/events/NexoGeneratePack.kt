@@ -16,7 +16,8 @@ object NexoGeneratePack : Listener {
         val config = ConfigManager.settings.packMode
         val id = UUID.randomUUID().toString().split("-")[0]
 
-        if (config != "Development") {
+        if (config == "Development") {
+            println("Development mode generated.")
             val packMcMeta = """
             {
              "pack": {
@@ -26,8 +27,8 @@ object NexoGeneratePack : Listener {
             }
             """.trimIndent().toByteArray(Charsets.UTF_8)
 
-            event.addUnknownFile("pack.mcmeta", packMcMeta)
-
+            val newfile = event.addUnknownFile("pack.mcmeta", packMcMeta)
+            println(newfile)
 
         } else if (config == "Production") {
             val packMcMeta = """
