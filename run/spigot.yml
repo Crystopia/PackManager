@@ -53,6 +53,7 @@ commands:
   - testforblock
   - tellraw
   silent-commandblock-console: false
+  enable-spam-exclusions: false
 advancements:
   disable-saving: false
   disabled:
