@@ -1,7 +1,9 @@
 ﻿package net.crystopia.packmanager.events
 
+import com.nexomc.nexo.api.events.resourcepack.NexoPackUploadEvent
 import com.nexomc.nexo.api.events.resourcepack.NexoPostPackGenerateEvent
 import com.nexomc.nexo.api.events.resourcepack.NexoPrePackGenerateEvent
+import kotlinx.coroutines.awaitAll
 import net.crystopia.packmanager.config.ConfigManager
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
@@ -12,6 +14,10 @@ object NexoGeneratePack : Listener {
 
     @EventHandler
     fun onGenPackEvent(event: NexoPrePackGenerateEvent) {
+
+        val file = File("plugins/Nexo/pack/packsquash/.cache")
+        deleteFolder(file)
+        file.mkdirs()
 
         println("[PackManager] Loading Extra Content for Crystopia")
         println("[PackManager] Loading Versioning...")
@@ -57,4 +63,37 @@ object NexoGeneratePack : Listener {
 
         println("[PackManager] Generating and patching done.")
     }
+
+    @EventHandler
+    fun onUpload(event: NexoPackUploadEvent) {
+
+        val folder = File("plugins/Nexo/pack/packsquash/.cache")
+        if (!folder.exists()) {
+            return
+        } else {
+            if (folder.isDirectory) {
+                folder.listFiles()?.forEach {
+                    println("[PackManager] Getting ${it.name}")
+                    println("[PackManager] Set File to Resource-pack Download API")
+                    ConfigManager.settings.RPzipFilePath = it.absolutePath
+                }
+            }
+        }
+
+    }
+
+    private fun deleteFolder(folder: File): Boolean {
+        if (folder.exists()) {
+            folder.listFiles()?.forEach { file ->
+                if (file.isDirectory) {
+                    deleteFolder(file)
+                } else {
+                    file.delete()
+                }
+            }
+        }
+        return folder.delete()
+    }
+
 }
+
