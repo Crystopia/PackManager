@@ -1,269 +1,181 @@
-[22:05:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Eclipse Adoptium Temurin-21.0.5+11) on Windows 11 10.0 (amd64)
-[22:05:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) for Minecraft 1.21.4
-[22:05:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:05:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[22:05:42] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[10:23:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Amazon.com Inc. Corretto-21.0.6.7.1) on Windows 10 10.0 (amd64)
+[10:23:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) for Minecraft 1.21.4
+[10:23:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:23:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[10:23:47] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - PackManager (1.0.0)
-[22:05:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[10:23:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - Nexo (1.3-dev)
-[22:05:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:05:46] [ServerMain/INFO]: Found new data pack file/nexo_custom_blocks, loading it automatically
-[22:05:46] [ServerMain/INFO]: Found new data pack file/nexo_music_discs, loading it automatically
-[22:05:47] [ServerMain/INFO]: Loaded 1370 recipes
-[22:05:47] [ServerMain/INFO]: Loaded 1481 advancements
-[22:05:47] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[22:05:47] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 160.9ms
-[22:05:48] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[22:05:48] [Server thread/INFO]: Loading properties
-[22:05:48] [Server thread/INFO]: This server is running Paper version 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[22:05:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:05:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:05:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:05:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[22:05:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:05:48] [Server thread/INFO]: Default game type: SURVIVAL
-[22:05:48] [Server thread/INFO]: Generating keypair
-[22:05:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:05:48] [Server thread/INFO]: Using default channel type
-[22:05:48] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[22:05:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[22:05:48] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loading 10 libraries... please wait
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\spongepowered\configurate-yaml\4.2.0\configurate-yaml-4.2.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\spongepowered\configurate-core\4.2.0\configurate-core-4.2.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\io\leangen\geantyref\geantyref\1.3.16\geantyref-1.3.16.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\net\kyori\option\1.1.0\option-1.1.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\checkerframework\checker-qual\3.49.0\checker-qual-3.49.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\spongepowered\configurate-extra-kotlin\4.2.0\configurate-extra-kotlin-4.2.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.30\kotlin-stdlib-jdk8-1.5.30.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib\1.5.30\kotlin-stdlib-1.5.30.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.30\kotlin-stdlib-jdk7-1.5.30.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-reflect\1.4.20\kotlin-reflect-1.4.20.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.5.2\kotlinx-coroutines-core-jvm-1.5.2.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.30\kotlin-stdlib-common-1.5.30.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\gs\mclo\java\2.2.1\java-2.2.1.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\apache\httpcomponents\client5\httpclient5\5.4.1\httpclient5-5.4.1.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\apache\httpcomponents\core5\httpcore5\5.3.1\httpcore5-5.3.1.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\apache\httpcomponents\core5\httpcore5-h2\5.3.1\httpcore5-h2-5.3.1.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\springframework\spring-expression\6.0.8\spring-expression-6.0.8.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\springframework\spring-core\6.0.8\spring-core-6.0.8.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\springframework\spring-jcl\6.0.8\spring-jcl-6.0.8.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar
-[22:05:49] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\jespe\Documents\GitHub\PackManager\run\libraries\org\jetbrains\annotations\26.0.1\annotations-26.0.1.jar
-[22:05:49] [Server thread/INFO]: [Nexo] Loading server plugin Nexo v1.3-dev
-[22:05:49] [Server thread/INFO]: [Nexo] Loading libraries...
-[22:05:50] [Server thread/INFO]: [Nexo] Downloaded library https://repo.nexomc.com/snapshots/team/unnamed/creative-api/1.8.3-SNAPSHOT/creative-api-1.8.3-SNAPSHOT.jar
-[22:05:50] [Server thread/INFO]: [Nexo] Downloaded library https://repo.nexomc.com/snapshots/team/unnamed/creative-server/1.8.3-SNAPSHOT/creative-server-1.8.3-SNAPSHOT.jar
-[22:05:51] [Server thread/INFO]: [Nexo] Downloaded library https://repo.nexomc.com/snapshots/team/unnamed/creative-serializer-minecraft/1.8.3-SNAPSHOT/creative-serializer-minecraft-1.8.3-SNAPSHOT.jar
-[22:05:52] [Server thread/INFO]: [Nexo] Downloaded library https://repo.triumphteam.dev/snapshots/dev/triumphteam/triumph-gui/3.2.0-SNAPSHOT/triumph-gui-3.2.0-20250128.122847-2.jar
-[22:05:52] [Server thread/INFO]: [PackManager] Loading server plugin PackManager v1.0.0
-[22:05:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:05:52] [Server thread/INFO]: Preparing level "world"
-[22:05:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:05:53] [Server thread/INFO]: Preparing spawn area: 0%
-[22:05:53] [Server thread/INFO]: Preparing spawn area: 16%
-[22:05:53] [Server thread/INFO]: Time elapsed: 625 ms
-[22:05:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:05:53] [Server thread/INFO]: Preparing spawn area: 0%
-[22:05:53] [Server thread/INFO]: Time elapsed: 85 ms
-[22:05:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:05:53] [Server thread/INFO]: Preparing spawn area: 0%
-[22:05:53] [Server thread/INFO]: Time elapsed: 61 ms
-[22:05:53] [Server thread/INFO]: [Nexo] Enabling Nexo v1.3-dev
-[22:05:53] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
-[22:05:53] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
+[10:23:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:23:51] [ServerMain/INFO]: Loaded 1370 recipes
+[10:23:51] [ServerMain/INFO]: Loaded 1481 advancements
+[10:23:51] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[10:23:51] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 148,0ms
+[10:23:51] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[10:23:51] [Server thread/INFO]: Loading properties
+[10:23:51] [Server thread/INFO]: This server is running Paper version 1.21.4-222-main@9b1798d (2025-03-27T13:35:40Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[10:23:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:23:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:23:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:23:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[10:23:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:23:52] [Server thread/INFO]: Default game type: SURVIVAL
+[10:23:52] [Server thread/INFO]: Generating keypair
+[10:23:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:23:52] [Server thread/INFO]: Using default channel type
+[10:23:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:23:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loading 10 libraries... please wait
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\spongepowered\configurate-yaml\4.2.0\configurate-yaml-4.2.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\spongepowered\configurate-core\4.2.0\configurate-core-4.2.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\io\leangen\geantyref\geantyref\1.3.16\geantyref-1.3.16.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\net\kyori\option\1.1.0\option-1.1.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\checkerframework\checker-qual\3.49.0\checker-qual-3.49.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\spongepowered\configurate-extra-kotlin\4.2.0\configurate-extra-kotlin-4.2.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.30\kotlin-stdlib-jdk8-1.5.30.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib\1.5.30\kotlin-stdlib-1.5.30.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.30\kotlin-stdlib-jdk7-1.5.30.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-reflect\1.4.20\kotlin-reflect-1.4.20.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.5.2\kotlinx-coroutines-core-jvm-1.5.2.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.30\kotlin-stdlib-common-1.5.30.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\gs\mclo\java\2.2.1\java-2.2.1.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\commons-io\commons-io\2.14.0\commons-io-2.14.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\apache\httpcomponents\client5\httpclient5\5.4.1\httpclient5-5.4.1.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\apache\httpcomponents\core5\httpcore5\5.3.1\httpcore5-5.3.1.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\apache\httpcomponents\core5\httpcore5-h2\5.3.1\httpcore5-h2-5.3.1.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\springframework\spring-expression\6.0.8\spring-expression-6.0.8.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\springframework\spring-core\6.0.8\spring-core-6.0.8.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\springframework\spring-jcl\6.0.8\spring-jcl-6.0.8.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\glassfish\javax.json\1.1.4\javax.json-1.1.4.jar
+[10:23:52] [Server thread/INFO]: [SpigotLibraryLoader] [Nexo] Loaded library C:\Users\s82573\Documents\GitHub\PackManager\run\libraries\org\jetbrains\annotations\26.0.1\annotations-26.0.1.jar
+[10:23:52] [Server thread/INFO]: [Nexo] Loading server plugin Nexo v1.3-dev
+[10:23:52] [Server thread/INFO]: [Nexo] Loading libraries...
+[10:23:59] [Server thread/INFO]: [Nexo] Downloaded library https://repo.nexomc.com/snapshots/team/unnamed/creative-api/1.8.3-SNAPSHOT/creative-api-1.8.3-SNAPSHOT.jar
+[10:24:03] [Server thread/INFO]: [Nexo] Downloaded library https://repo.nexomc.com/snapshots/team/unnamed/creative-server/1.8.3-SNAPSHOT/creative-server-1.8.3-SNAPSHOT.jar
+[10:24:08] [Server thread/INFO]: [Nexo] Downloaded library https://repo.nexomc.com/snapshots/team/unnamed/creative-serializer-minecraft/1.8.3-SNAPSHOT/creative-serializer-minecraft-1.8.3-SNAPSHOT.jar
+[10:24:13] [Server thread/INFO]: [Nexo] Downloaded library https://repo.triumphteam.dev/snapshots/dev/triumphteam/triumph-gui/3.2.0-SNAPSHOT/triumph-gui-3.2.0-20250128.122847-2.jar
+[10:24:13] [Server thread/INFO]: [PackManager] Loading server plugin PackManager v1.0.0
+[10:24:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:24:13] [Server thread/INFO]: Preparing level "world"
+[10:24:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:24:14] [Server thread/INFO]: Preparing spawn area: 0%
+[10:24:14] [Server thread/INFO]: Preparing spawn area: 2%
+[10:24:14] [Server thread/INFO]: Time elapsed: 510 ms
+[10:24:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:24:14] [Server thread/INFO]: Preparing spawn area: 0%
+[10:24:14] [Server thread/INFO]: Time elapsed: 54 ms
+[10:24:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:24:14] [Server thread/INFO]: Preparing spawn area: 0%
+[10:24:14] [Server thread/INFO]: Time elapsed: 40 ms
+[10:24:14] [Server thread/INFO]: [Nexo] Enabling Nexo v1.3-dev
+[10:24:15] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
+[10:24:15] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
 
-[22:05:54] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
-[22:05:54] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
-[22:05:54] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
-[22:05:54] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:05:54] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:24:15] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
+[10:24:15] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
+[10:24:15] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[10:24:15] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:24:15] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:05:54] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
-[22:05:54] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
-[22:05:54] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:05:54] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:24:15] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
+[10:24:15] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
+[10:24:15] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:24:15] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:05:54] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
-[22:05:54] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
-[22:05:54] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:05:54] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:24:15] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
+[10:24:15] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
+[10:24:15] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:24:15] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:05:54] [Server thread/INFO]: [PackManager] Enabling PackManager v1.0.0
-[22:05:54] [Server thread/INFO]: [PackManager] Enabling PackSender
-[22:05:54] [ForkJoinPool.commonPool-worker-3/INFO]: Nexo | Skipped downloading DefaultPack as it is up to date!
-[22:05:54] [Server thread/INFO]: [ktor.application] Autoreload is disabled because the development mode is off.
-[22:05:54] [Server thread/INFO]: [ktor.application] Application started in 0.124 seconds.
-[22:05:54] [DefaultDispatcher-worker-2/INFO]: [ktor.application] Responding at http://127.0.0.1:9900
-[22:05:54] [Server thread/INFO]: [spark] Starting background profiler...
-[22:05:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[22:05:54] [Server thread/INFO]: Done preparing level "world" (2.229s)
-[22:05:54] [Server thread/INFO]: Running delayed init tasks
-[22:05:55] [Server thread/INFO]: Done (14.645s)! For help, type "help"
-[22:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: Nexo | Generating resourcepack...
-[22:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: Nexo | Importing DefaultPack...
-[22:05:55] [Server thread/INFO]: Generating pack...
-[22:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: Nexo | Validating ResourcePack files...
-[22:05:55] [ForkJoinPool.commonPool-worker-3/INFO]: Nexo | Finished generating resourcepack!
+[10:24:15] [Server thread/INFO]: [PackManager] Enabling PackManager v1.0.0
+[10:24:15] [Server thread/INFO]: [PackManager] Enabling PackSender
+[10:24:15] [Server thread/INFO]: [ktor.application] Autoreload is disabled because the development mode is off.
+[10:24:15] [Server thread/INFO]: [ktor.application] Application started in 0.11 seconds.
+[10:24:15] [DefaultDispatcher-worker-1/INFO]: [ktor.application] Responding at http://127.0.0.1:9900
+[10:24:15] [Server thread/INFO]: [spark] Starting background profiler...
+[10:24:15] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[10:24:15] [Server thread/INFO]: Done preparing level "world" (1.922s)
+[10:24:15] [Server thread/INFO]: Running delayed init tasks
+[10:24:16] [Server thread/INFO]: Done (30.559s)! For help, type "help"
+[10:24:16] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Generating resourcepack...
+[10:24:16] [Server thread/INFO]: [PackManager] Loading Extra Content for Crystopia
+[10:24:16] [Server thread/INFO]: [PackManager] Loading Versioning...
+[10:24:16] [Server thread/INFO]: [PackManager] Development mode generated.
+[10:24:16] [Server thread/INFO]: [PackManager] Generating and patching done.
+[10:24:16] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Validating ResourcePack files...
+[10:24:16] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Finished generating resourcepack!
 
-[22:05:56] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=2de789a7c9bed9d7952660fa1029b1c81869fce4
-[22:06:09] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
-[22:06:09] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
+[10:24:17] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=4616df2bb9d1dda53d6319912257194cf96b6ac6
+[10:24:30] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
+[10:24:30] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
 
-[22:06:09] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
-[22:06:09] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
-[22:06:09] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
-[22:06:09] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:06:09] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:24:30] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
+[10:24:30] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
+[10:24:30] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[10:24:30] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:24:30] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:06:09] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
-[22:06:09] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
-[22:06:09] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:06:09] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:24:30] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
+[10:24:30] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
+[10:24:30] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:24:30] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:06:09] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
-[22:06:09] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
-[22:06:09] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:06:09] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:24:30] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
+[10:24:30] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
+[10:24:30] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:24:30] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:06:09] [Server thread/INFO]: Nexo | Successfully reloaded configs
-[22:06:09] [Server thread/INFO]: Nexo | Successfully reloaded items
-[22:06:09] [Server thread/INFO]: Nexo | Successfully reloaded recipes
-[22:06:09] [Server thread/INFO]: Nexo | Resourcepack successfully regenerated
-[22:06:09] [ForkJoinPool.commonPool-worker-3/INFO]: Nexo | Skipped downloading DefaultPack as it is up to date!
-[22:06:09] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Generating resourcepack...
-[22:06:10] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Importing DefaultPack...
-[22:06:10] [Server thread/INFO]: Generating pack...
-[22:06:10] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Validating ResourcePack files...
-[22:06:10] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Finished generating resourcepack!
+[10:24:31] [Server thread/INFO]: Nexo | Successfully reloaded configs
+[10:24:31] [Server thread/INFO]: Nexo | Successfully reloaded items
+[10:24:31] [Server thread/INFO]: Nexo | Successfully reloaded recipes
+[10:24:31] [Server thread/INFO]: Nexo | Resourcepack successfully regenerated
+[10:24:31] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Generating resourcepack...
+[10:24:31] [Server thread/INFO]: [PackManager] Loading Extra Content for Crystopia
+[10:24:31] [Server thread/INFO]: [PackManager] Loading Versioning...
+[10:24:31] [Server thread/INFO]: [PackManager] Development mode generated.
+[10:24:31] [Server thread/INFO]: [PackManager] Generating and patching done.
+[10:24:31] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Validating ResourcePack files...
+[10:24:31] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Obfuscating NexoPack...
+[10:24:31] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Caching obfuscated ResourcePack...
+[10:24:31] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Finished generating resourcepack!
 
-[22:06:10] [ForkJoinPool.commonPool-worker-3/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=2de789a7c9bed9d7952660fa1029b1c81869fce4
-[22:06:12] [User Authenticator #0/INFO]: UUID of player jesforge is d52e14ce-5bce-4359-8764-399674a3d2aa
-[22:06:13] [Server thread/INFO]: jesforge[/127.0.0.1:55191] logged in with entity id 20 at ([world]-289.5, 74.0, -5.5)
-[22:07:23] [Server thread/INFO]: jesforge issued server command: /nexo reload all
-[22:07:23] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
-[22:07:23] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
+[10:24:32] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=eed4fb834e6851f4250165f8cd9421ec9d7d13f3
+[10:25:38] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
+[10:25:38] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
 
-[22:07:23] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
-[22:07:23] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
-[22:07:23] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
-[22:07:23] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:07:23] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:25:38] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
+[10:25:38] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
+[10:25:38] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[10:25:38] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:25:38] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:07:23] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
-[22:07:23] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
-[22:07:23] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:07:23] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:25:38] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
+[10:25:38] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
+[10:25:38] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:25:38] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:07:23] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
-[22:07:23] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
-[22:07:23] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:07:23] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
+[10:25:38] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
+[10:25:38] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
+[10:25:38] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
+[10:25:38] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
 
-[22:07:24] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Skipped downloading DefaultPack as it is up to date!
-[22:07:24] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Generating resourcepack...
-[22:07:24] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Importing DefaultPack...
-[22:07:24] [Server thread/INFO]: Generating pack...
-[22:07:24] [Server thread/INFO]: Development mode generated.
-[22:07:24] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Validating ResourcePack files...
-[22:07:24] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Finished generating resourcepack!
+[10:25:38] [Server thread/INFO]: Nexo | Successfully reloaded configs
+[10:25:38] [Server thread/INFO]: Nexo | Successfully reloaded items
+[10:25:38] [Server thread/INFO]: Nexo | Successfully reloaded recipes
+[10:25:38] [Server thread/INFO]: Nexo | Resourcepack successfully regenerated
+[10:25:38] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Generating resourcepack...
+[10:25:39] [Server thread/INFO]: [PackManager] Loading Extra Content for Crystopia
+[10:25:39] [Server thread/INFO]: [PackManager] Loading Versioning...
+[10:25:39] [Server thread/INFO]: [PackManager] Development mode generated.
+[10:25:39] [Server thread/INFO]: [PackManager] Generating and patching done.
+[10:25:39] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Validating ResourcePack files...
+[10:25:39] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Obfuscating NexoPack...
+[10:25:39] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Caching obfuscated ResourcePack...
+[10:25:39] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | Finished generating resourcepack!
 
-[22:07:25] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=2de789a7c9bed9d7952660fa1029b1c81869fce4
-[22:07:51] [Server thread/INFO]: jesforge issued server command: /nexo reload all
-[22:07:51] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
-[22:07:51] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
-
-[22:07:51] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
-[22:07:51] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
-[22:07:51] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
-[22:07:51] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:07:51] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:07:51] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
-[22:07:51] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
-[22:07:51] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:07:51] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:07:51] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
-[22:07:51] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
-[22:07:51] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:07:51] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:07:52] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Skipped downloading DefaultPack as it is up to date!
-[22:07:52] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Generating resourcepack...
-[22:07:52] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Importing DefaultPack...
-[22:07:52] [Server thread/INFO]: Generating pack...
-[22:07:52] [Server thread/INFO]: Development mode generated.
-[22:07:52] [Server thread/INFO]: true
-[22:07:52] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Validating ResourcePack files...
-[22:07:52] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | Finished generating resourcepack!
-
-[22:07:52] [ForkJoinPool.commonPool-worker-1/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=2de789a7c9bed9d7952660fa1029b1c81869fce4
-[22:10:00] [Server thread/INFO]: jesforge issued server command: /nexo reload all
-[22:10:00] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
-[22:10:00] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
-
-[22:10:00] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
-[22:10:00] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
-[22:10:00] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
-[22:10:00] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:10:00] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:10:00] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
-[22:10:00] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
-[22:10:00] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:10:00] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:10:00] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
-[22:10:00] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
-[22:10:00] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:10:00] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:10:00] [ForkJoinPool.commonPool-worker-5/INFO]: Nexo | Skipped downloading DefaultPack as it is up to date!
-[22:10:00] [ForkJoinPool.commonPool-worker-5/INFO]: Nexo | Generating resourcepack...
-[22:10:00] [ForkJoinPool.commonPool-worker-5/INFO]: Nexo | Importing DefaultPack...
-[22:10:00] [Server thread/INFO]: Generating pack...
-[22:10:00] [Server thread/INFO]: Development mode generated.
-[22:10:00] [Server thread/INFO]: true
-[22:10:00] [ForkJoinPool.commonPool-worker-5/INFO]: Nexo | Validating ResourcePack files...
-[22:10:00] [ForkJoinPool.commonPool-worker-5/INFO]: Nexo | Finished generating resourcepack!
-
-[22:10:01] [ForkJoinPool.commonPool-worker-5/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=2de789a7c9bed9d7952660fa1029b1c81869fce4
-[22:11:09] [Server thread/INFO]: jesforge issued server command: /nexo reload all
-[22:11:09] [Server thread/INFO]: Nexo | Version v1_21_R3 has been detected.
-[22:11:09] [Server thread/INFO]: Nexo | Nexo will use the NMSHandler for this version.
-
-[22:11:09] [Server thread/INFO]: Nexo | PackServer set to POLYMATH
-[22:11:09] [Server thread/INFO]: Nexo | Papers block-updates.disable-noteblock-updates is not enabled.
-[22:11:09] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with noteblocks
-[22:11:09] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:11:09] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:11:09] [Server thread/INFO]: Nexo | Papers block-updates.disable-tripwire-updates is not enabled.
-[22:11:09] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with tripwires
-[22:11:09] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:11:09] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:11:09] [Server thread/INFO]: Nexo | Papers block-updates.disable-chorus-plant-updates is not enabled.
-[22:11:09] [Server thread/INFO]: Nexo | It is HIGHLY recommended to enable this setting for improved performance and prevent bugs with chorus-plants
-[22:11:09] [Server thread/INFO]: Nexo | Otherwise Nexo needs to listen to very taxing events, which also introduces some bugs
-[22:11:09] [Server thread/INFO]: Nexo | You can enable this setting in ServerFolder/config/paper-global.yml
-
-[22:11:10] [ForkJoinPool.commonPool-worker-4/INFO]: Nexo | Extracting latest vanilla-resourcepack...
-[22:11:29] [ForkJoinPool.commonPool-worker-4/INFO]: Nexo | Finished extracting latest vanilla-resourcepack!
-[22:11:29] [ForkJoinPool.commonPool-worker-4/INFO]: Nexo | Generating resourcepack...
-[22:11:29] [Server thread/INFO]: Generating pack...
-[22:11:29] [Server thread/INFO]: Development mode generated.
-[22:11:29] [Server thread/INFO]: true
-[22:11:29] [ForkJoinPool.commonPool-worker-4/INFO]: Nexo | Validating ResourcePack files...
-[22:11:29] [ForkJoinPool.commonPool-worker-4/INFO]: Nexo | Obfuscating NexoPack...
-[22:11:29] [ForkJoinPool.commonPool-worker-4/INFO]: Nexo | Caching obfuscated ResourcePack...
-[22:11:29] [ForkJoinPool.commonPool-worker-4/INFO]: Nexo | Finished generating resourcepack!
-
-[22:11:29] [ForkJoinPool.commonPool-worker-6/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=8014fd670826650737a61272eb5bbebf413c26c1
-[22:12:38] [Server thread/INFO]: jesforge was slain by Zombie
+[10:25:39] [ForkJoinPool.commonPool-worker-2/INFO]: Nexo | ResourcePack has been uploaded to https://atlas.nexomc.com/pack.zip?id=cf74ec6ea86dc7ae59129d8d20b2e3a8ed8d9c70
