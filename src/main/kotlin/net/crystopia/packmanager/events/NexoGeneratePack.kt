@@ -30,7 +30,7 @@ object NexoGeneratePack : Listener {
         if (config == "Development") {
             println("[PackManager] Development mode generated.")
             val packMcMeta = """
-        {"pack":{"pack_format":46,"description":"§bCrystopia Server Pack\n§7 Verion: §e${id}-dev","supported_formats":${packVersions.toString()}},"overlays":{"entries":[]},"sodium":{"ignored_shaders":[]}}
+        {"pack":{"pack_format":46,"description":"§bCrystopia Server Pack\n§7 Version: §e${id}-dev","supported_formats":${packVersions.toString()}},"overlays":{"entries":[]},"sodium":{"ignored_shaders":[]}}
     """.trimIndent().toByteArray(Charsets.UTF_8)
 
             val packDir = File("plugins/Nexo/pack")
@@ -45,7 +45,7 @@ object NexoGeneratePack : Listener {
             println("[PackManager] Production mode generated.")
 
             val packMcMeta = """
-        {"pack":{"pack_format":46,"description":"§bCrystopia Server Pack\n§7 Verion: §e${id}","supported_formats":${packVersions.toString()}},"overlays":{"entries":[]},"sodium":{"ignored_shaders":[]}}
+        {"pack":{"pack_format":46,"description":"§bCrystopia Server Pack\n§7 Version: §e${id}","supported_formats":${packVersions.toString()}},"overlays":{"entries":[]},"sodium":{"ignored_shaders":[]}}
     """.trimIndent().toByteArray(Charsets.UTF_8)
 
 
