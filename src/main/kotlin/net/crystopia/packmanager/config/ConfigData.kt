@@ -10,5 +10,6 @@ data class ConfigData(
     val RPzipFilePath: String?,
     var pluginFolderToZip: String?,
     val message: String?,
-    val packMode:String = ""
+    val packMode: String = "",
+    val packVersion: MutableList<String> = mutableListOf("22","48"),
 )
