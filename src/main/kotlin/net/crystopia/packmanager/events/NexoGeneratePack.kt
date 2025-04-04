@@ -76,6 +76,7 @@ object NexoGeneratePack : Listener {
                     println("[PackManager] Getting ${it.name}")
                     println("[PackManager] Set File to Resource-pack Download API")
                     ConfigManager.settings.RPzipFilePath = it.absolutePath
+                    ConfigManager.save()
                 }
             }
         }
